@@ -14,5 +14,6 @@ public class NbServer extends ServerMethod{
         //输出数据
         ServerMethod.outBrowse(socket,val);
         socket.close();
+        //这个版本没有使用线程和循环，所以只能一次性访问
     }
 }
