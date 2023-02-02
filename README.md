@@ -7,12 +7,15 @@
 # 必须修改RequestData中 //用户目录位置
     private final String userPath = "E:\\Users\\";
     请修改为你自己的，否则会报错，这里以Windows系统路径测试，其它系统请使用其它系统路径格式
+    ![](https://img.mdcvs.cn/i/2023/02/02/i8ui08.png)
+
     
 # 用户保存位置方式
   例子一个用户 账号为123456
   那么在本地的文件保存为E:\\Users\\123456
   密码保存为E:\\Users\\123456\\password.txt
   注册的时候会通过数据分析自动创建账户和密码文件夹和文件（采用IO流）
+  ![](https://img.mdcvs.cn/i/2023/02/02/i7jhin.png)
     
 # 接口格式
   # 登录接口
@@ -31,7 +34,5 @@
 # ---------------------建议-----------------------
  对前后端数据进行加密,例如aes加密。对数据作过期验证。
  
-```java 
-System.out.println("Hello World");
-```
+
  
