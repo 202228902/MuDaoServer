@@ -96,5 +96,6 @@ public class ServerMethod extends RequestData{
 
         URL url = login.class.getResource("./");
         return "";
+       
     }
 }
