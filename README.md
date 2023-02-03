@@ -1,5 +1,5 @@
 # SeversSockrt
-基于Java原生SercerSocket和I/O流进行登录注册接口实现，可部署服务端前端直接调用接口
+基于Java原生ServerSocket和I/O流进行登录注册接口实现，可部署服务端前端直接调用接口
 
 # 可以通过使用线程池和循环来对服务端进行简单优化
 # 采用get方式进行访问
